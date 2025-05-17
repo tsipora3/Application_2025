@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuViewHappy"
+        android:title="View Your Happy Memories"
+        android:icon="@drawable/baseline_happy_faces_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menuViewSad"
+        android:title="View Your Sad Memories"/>
+    <item
+        android:id="@+id/menuViewContent"
+        android:title="View Your Content Memories"/>
+    <item
+        android:id="@+id/menuViewAllMemories"
+        android:title="View All Memories"/>
+    <item
+        android:id="@+id/menuSetNotification"
+        android:title="Set Notification"
+        android:icon="@drawable/baseline_alarm_add_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menuAddEntry"
+        android:title="Add a new entry"
+        android:icon="@drawable/baseline_add_comment_24"
+        app:showAsAction="always"/>
+
+</menu>

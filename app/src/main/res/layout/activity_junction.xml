@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="#F4D2FD"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    tools:context=".Junction">
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Add a new entry" />
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="View Entries" />
+    <Button
+        android:id="@+id/bViewHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Happy"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/bViewSad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Sad"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/bViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="View Content" />
+
+
+    <Button
+        android:id="@+id/bSetNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Set Notification" />" />
+
+
+</LinearLayout>
